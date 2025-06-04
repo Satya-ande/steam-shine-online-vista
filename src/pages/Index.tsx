@@ -1,17 +1,23 @@
 
 import React from 'react';
-import ThrishaNavigation from '@/components/ThrishaNavigation';
-import ThrishaHero from '@/components/ThrishaHero';
-import ThrishaServices from '@/components/ThrishaServices';
-import ThrishaContact from '@/components/ThrishaContact';
+import SatyaNavigation from '@/components/SatyaNavigation';
+import SatyaHero from '@/components/SatyaHero';
+import SatyaServices from '@/components/SatyaServices';
+import SatyaBlogSection from '@/components/SatyaBlogSection';
+import SatyaAbout from '@/components/SatyaAbout';
+import SatyaContact from '@/components/SatyaContact';
+import SatyaFooter from '@/components/SatyaFooter';
 
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <ThrishaNavigation />
-      <ThrishaHero />
-      <ThrishaServices />
-      <ThrishaContact />
+      <SatyaNavigation />
+      <SatyaHero />
+      <SatyaServices />
+      <SatyaBlogSection />
+      <SatyaAbout />
+      <SatyaContact />
+      <SatyaFooter />
     </div>
   );
 };
