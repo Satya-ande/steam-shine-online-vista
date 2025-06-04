@@ -34,7 +34,7 @@ const SatyaContact = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-6 w-6 text-blue-600" />
-                <span>info@vapddashsteam.com</span>
+                <span>info@thrisha.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-6 w-6 text-blue-600" />

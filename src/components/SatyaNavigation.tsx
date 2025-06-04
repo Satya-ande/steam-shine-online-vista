@@ -9,7 +9,7 @@ const SatyaNavigation = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
             <Droplets className="h-8 w-8 text-blue-600" />
-            <span className="text-xl font-bold">VAP'D DASHSTEAM</span>
+            <span className="text-xl font-bold">THRISHA</span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
