@@ -13,9 +13,14 @@ const Hero = () => {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center">
-      {/* Background with overlay */}
-      <div className="absolute inset-0 gradient-bg"></div>
-      <div className="absolute inset-0 bg-black/20"></div>
+      {/* Background image with overlay */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `url('/lovable-uploads/9d7e4102-9c88-4194-aad8-67e20f050a50.png')`
+        }}
+      ></div>
+      <div className="absolute inset-0 bg-black/40"></div>
       
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-10">
