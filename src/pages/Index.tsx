@@ -1,23 +1,23 @@
 
 import React from 'react';
-import SatyaNavigation from '@/components/SatyaNavigation';
-import SatyaHero from '@/components/SatyaHero';
-import SatyaServices from '@/components/SatyaServices';
-import SatyaBlogSection from '@/components/SatyaBlogSection';
-import SatyaAbout from '@/components/SatyaAbout';
-import SatyaContact from '@/components/SatyaContact';
-import SatyaFooter from '@/components/SatyaFooter';
+import Navigation from '@/components/Navigation';
+import Hero from '@/components/Hero';
+import Services from '@/components/Services';
+import BlogSection from '@/components/BlogSection';
+import About from '@/components/About';
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
 
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <SatyaNavigation />
-      <SatyaHero />
-      <SatyaServices />
-      <SatyaBlogSection />
-      <SatyaAbout />
-      <SatyaContact />
-      <SatyaFooter />
+      <Navigation />
+      <Hero />
+      <Services />
+      <BlogSection />
+      <About />
+      <Contact />
+      <Footer />
     </div>
   );
 };
